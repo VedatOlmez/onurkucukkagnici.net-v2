@@ -38,12 +38,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // `gatsby-plugin-offline`,
+    // `gatsby-plugin-online`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-121912050-6",
-        head: false,
+        head: true,
       },
     },
     {
