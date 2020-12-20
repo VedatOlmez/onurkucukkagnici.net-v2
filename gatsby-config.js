@@ -38,7 +38,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // `gatsby-plugin-online`,
+    `gatsby-plugin-online`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
